@@ -16,3 +16,7 @@ for x in range(100):
     EHP2 = x * ((10000/(100-WantedDamageReduction))/100)#Use the formula I created
     Percent_of_each_other2 = (EHP2/x)*100#Calculate what percentage EHP2 is of x
     print("HP: " + str(x) + " EHP: " + str(EHP2) + " %" + str(Percent_of_each_other2))#print
+
+    EHP3 = (100*x)/(100-WantedDamageReduction)#I went ahead and simplified it in Symbolab for you so its easier to read
+    Percent_of_each_other3 = (EHP3/x)*100#Calculate what percentage EHP2 is of x
+    print("HP: " + str(x) + " EHP: " + str(EHP3) + " %" + str(Percent_of_each_other3))#print
